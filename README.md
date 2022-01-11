@@ -1,2 +1,2 @@
 # MovieApp
-![]("screenshots/photo1.jpg")
+![](screenshots/photo1.jpg)
