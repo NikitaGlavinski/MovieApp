@@ -15,6 +15,7 @@ struct ScreenshotView: View {
     
     init(model: MovieImageModel) {
         self.imageModel = model
+        self.isLoading = true
         imageLoader = ImageLoader(url: "https://image.tmdb.org/t/p/w500" + (model.filePath ?? ""))
     }
     
